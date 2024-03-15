@@ -49,7 +49,7 @@ return password
 ```python
 # Example Python script
 password = generate_password()
-print(f"Generated password: {password)")
+print(f"Generated password: {password}")
 ```
 
 ## Final Result:
@@ -65,7 +65,7 @@ def generate_password(length: int = 10):
     return password
 
 password = generate_password()
-print(f"Generated password: {password)")
+print(f"Generated password: {password}")
 
 # Output:
 # Generated password: HinWNv9_]M
