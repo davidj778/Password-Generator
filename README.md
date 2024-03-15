@@ -26,7 +26,7 @@ def generate_password(Length: int = 10):
 ## Step 3:
 ```python
 # Example Python script
-alphabet = string ascii_letters + string digits + string-punctuation
+alphabet = string.ascii_letters + string.digits + string.punctuation
 ```
 
 ## Step 4:
@@ -51,7 +51,7 @@ import random
 import string
 
 def generate_password(Length: int = 10):
-    alphabet = string ascii_letters + string digits + string-punctuation
+    alphabet = string.ascii_letters + string.digits + string.punctuation
     password = ''.join(random.choice(alphabet) for i in range(length))
     return password
 
