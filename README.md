@@ -5,9 +5,9 @@
 For this lab, I built a random password generator in python. 
 
 ## Step 1:
-First, in order to generate random strings of text, you have to import the random module. 
+First, in order to generate random strings of text, you have to import the "random" module. 
 
-The string module is imported for the sole purpose of accessing predefined sets of characters for a variable that will be added later.
+The "string" module is imported for the sole purpose of accessing predefined sets of characters for a variable that will be added later.
 ```python
 # Example Python script
 import random
@@ -15,6 +15,9 @@ import string
 ```
 
 ## Step 2:
+Next, we want to create the body of text that will generate the passwords. To do this, we will add the "def" function to add a reusable block. 
+
+I then defined the "generate_password" function that will generate random passwords with a specified length.
 ```python
 # Example Python script
 def generate_password(Length: int = 10):
