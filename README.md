@@ -1,6 +1,6 @@
 [Main Page](https://github.com/davidj778/davidj778)
 
-# Password-Generator
+# Password Generator
 
 For this lab, I built a random password generator in python. 
 
