@@ -46,6 +46,9 @@ return password
 ```
 
 ## Step 5:
+The “password = generate_password():” operation assigns the password to the variable “password”.
+
+The last line prints the password.
 ```python
 # Example Python script
 password = generate_password()
