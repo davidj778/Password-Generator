@@ -24,7 +24,7 @@ def generate_password(length: int = 10):
 ```
 
 ## Step 3:
-For the next line of code, we want to add a variety of characters to generate for our passwords. This is done by creating a string “alphabet”, which will concatenate ASCII letters(lower and uppercase), digits and punctuation characters.
+For the next line of code, we want to add a variety of characters to generate our passwords. This is done by creating a string “alphabet”, which will concatenate ASCII letters(lower and uppercase), digits and punctuation characters.
 ```python
 # Example Python script
 alphabet = string.ascii_letters + string.digits + string.punctuation
