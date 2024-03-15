@@ -37,7 +37,7 @@ The “random.choice” function is pulled from the “random” module which ra
 
 The “for i in range(length)” repeats “random.choice(alphabet)” operation length a certain amount of times.
 
-Finally, “return password” returns the new password to the original caller(generate_password).
+“return password” will return the new password to the original caller(generate_password).
 ```python
 # Example Python script
 password = ''.join(random.choice(alphabet) for i in range(length))
