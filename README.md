@@ -35,7 +35,9 @@ You add the ‘’ to ensure that there will not be any spaces between the chara
 
 The “random.choice” function is pulled from the “random” module which randomly selects a character for the “alphabet” string.
 
-Finally, the “for i in range(length)” repeats “random.choice(alphabet)” operation length a certain amount of times.
+The “for i in range(length)” repeats “random.choice(alphabet)” operation length a certain amount of times.
+
+Finally, “return password” returns the new password to the original caller(generate_password).
 ```python
 # Example Python script
 password = ''.join(random.choice(alphabet) for i in range(length))
