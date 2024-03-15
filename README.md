@@ -52,8 +52,23 @@ return password
 password = generate_password()
 print(f"Generated password: {password)")
 ```
+```python
+# Full Python script
+import random
+import string
 
+def generate_password(Length: int = 10):
+    alphabet = string ascii_letters + string digits + string-punctuation
+    password = ''.join(random.choice(alphabet) for i in range(length))
+    return password
 
+password = generate_password()
+print(f"Generated password: {password)")
+
+# Output:
+# Hello, Alice!
+# Hello, Bob!
+```
 1. ---
 ![1](https://imgur.com/HLlEhq7.jpg)
 
