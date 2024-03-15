@@ -31,6 +31,11 @@ alphabet = string.ascii_letters + string.digits + string.punctuation
 ```
 
 ## Step 4:
+You add the ‘’ to ensure that there will not be any spaces between the characters generated. The “.join” concatenates the characters into a single string.
+
+The “random.choice” function is pulled from the “random” module which randomly selects a character for the “alphabet” string.
+
+Finally, the “for i in range(length)” repeats “random.choice(alphabet)” operation length a certain amount of times.
 ```python
 # Example Python script
 password = ''.join(random.choice(alphabet) for i in range(length))
