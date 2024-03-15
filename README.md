@@ -9,33 +9,35 @@
 1. ---
 ![1](https://imgur.com/IzMiN7H.jpg)
 
+```python
+# Example Python script
 import random
-
 import string
+```
 
-1. ---
-![1](https://imgur.com/P6zHR4b.jpg)
+```python
+# Example Python script
+def generate_password(Length: int = 10):
+```
 
-def generate password Length: int = 10):
-
-1. ---
-![1](https://imgur.com/5mkmvJt.jpg)
-
+```python
+# Example Python script
 alphabet = string ascii_letters + string digits + string-punctuation
+```
 
-1. ---
-![1](https://imgur.com/Axx4cYW.jpg)
-
+```python
+# Example Python script
 password = ''.join(random.choice(alphabet) for i in range(length))
 
 return password
+```
 
-1. ---
-![1](https://imgur.com/c1nVvEK.jpg)
-
+```python
+# Example Python script
 password = generate_password()
 
 print(f"Generated password: {password)")
+```
 
 
 1. ---
