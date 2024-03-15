@@ -2,6 +2,7 @@
 
 # Password-Generator
 
+For this lab, I built a random password generator in python. 
 
 ```python
 # Example Python script
