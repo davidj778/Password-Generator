@@ -20,7 +20,7 @@ Next, we want to create the body of text that will generate the passwords. To do
 I then defined the "generate_password" function that will generate random passwords with a specified length.
 ```python
 # Example Python script
-def generate_password(Length: int = 10):
+def generate_password(length: int = 10):
 ```
 
 ## Step 3:
@@ -51,7 +51,7 @@ print(f"Generated password: {password)")
 import random
 import string
 
-def generate_password(Length: int = 10):
+def generate_password(length: int = 10):
     alphabet = string.ascii_letters + string.digits + string.punctuation
     password = ''.join(random.choice(alphabet) for i in range(length))
     return password
