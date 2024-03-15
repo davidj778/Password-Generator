@@ -2,27 +2,6 @@
 
 # Password-Generator
 
-1. ---
-![1](https://imgur.com/fHrHjhe.jpg)
-1. ---
-![1](https://imgur.com/votgGgE.jpg)
-1. ---
-![1](https://imgur.com/IzMiN7H.jpg)
-
-```python
-# Full Python script
-import random
-import string
-
-def generate_password(Length: int = 10):
-    alphabet = string ascii_letters + string digits + string-punctuation
-    password = ''.join(random.choice(alphabet) for i in range(length))
-    return password
-
-password = generate_password()
-print(f"Generated password: {password)")
-```
-
 
 ```python
 # Example Python script
@@ -71,7 +50,5 @@ print(f"Generated password: {password)")
 # Generated password: <otNKWD<m
 # Generated password: 8&Pm.5-{DS
 ```
-1. ---
-![1](https://imgur.com/HLlEhq7.jpg)
 
 
