@@ -53,7 +53,7 @@ print(f"Generated password: {password}")
 ```
 
 ## Final Result:
-The end result generates unique password everytime the script runs.
+The end result generates a unique password everytime the script runs.
 ```python
 # Full Python script
 import random
