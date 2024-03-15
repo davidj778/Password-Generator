@@ -10,6 +10,21 @@
 ![1](https://imgur.com/IzMiN7H.jpg)
 
 ```python
+# Full Python script
+import random
+import string
+
+def generate_password(Length: int = 10):
+    alphabet = string ascii_letters + string digits + string-punctuation
+    password = ''.join(random.choice(alphabet) for i in range(length))
+    return password
+
+password = generate_password()
+print(f"Generated password: {password)")
+```
+
+
+```python
 # Example Python script
 import random
 import string
@@ -35,7 +50,6 @@ return password
 ```python
 # Example Python script
 password = generate_password()
-
 print(f"Generated password: {password)")
 ```
 
