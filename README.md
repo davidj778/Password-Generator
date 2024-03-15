@@ -66,8 +66,10 @@ password = generate_password()
 print(f"Generated password: {password)")
 
 # Output:
-# Hello, Alice!
-# Hello, Bob!
+# Generated password: HinWNv9_]M
+# Generated password: uR-pTFR04,
+# Generated password: <otNKWD<m
+# Generated password: 8&Pm.5-{DS
 ```
 1. ---
 ![1](https://imgur.com/HLlEhq7.jpg)
